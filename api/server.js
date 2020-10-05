@@ -1,5 +1,5 @@
 const express = require('express');
-const helemt = require('helmet');
+const helmet = require('helmet');
 
 const server = express();
 
@@ -10,4 +10,4 @@ server.get('/', (req, res) => {
 	res.json({ API: 'the backend API is running ' });
 });
 
-modeule.exports = server;
+module.exports = server;
